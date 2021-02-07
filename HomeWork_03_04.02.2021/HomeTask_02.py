@@ -18,3 +18,7 @@ for i in input_list:
         continue
 
 print(f"You've got {j} even integers in your list")
+
+
+
+# try to remove else block. it will perfform the same :)
