@@ -46,3 +46,23 @@ test_str_1 = "   Hello world   this is  not actually me   :)"
 # print(test_str_1)
 
 # Sorry, it's not finished, I am stuck:(
+
+# check this out:
+# def zipper(test_string):
+#     result_string = ""
+#     flag_1 = False
+#     flag_2 = False
+#     for i in test_string:
+#         if i == " " and not flag_1:
+#             result_string += i
+#         elif i == " " and flag_1 and not flag_2:
+#             flag_2 = True
+#             result_string += i
+#         elif i != " ":
+#             flag_1 = True
+#             flag_2 = False
+#             result_string += i
+#
+#     return result_string.rstrip()
+# Please try pay attention to flags. They help us manipulate the logic.
+# If you have some questions about implementation - let me know.
