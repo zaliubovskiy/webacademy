@@ -23,6 +23,9 @@ for i in input_string:
         break
 
 # Is this a problem that I resolved it without "enumerate" function?
+# No, no at all. Noce one.
+# But why are converting input in int() and then in str() again?
+# If you need string in code after input() just don't convert it to int()
 
 
 # FIRST OBVIOUS SOLUTION

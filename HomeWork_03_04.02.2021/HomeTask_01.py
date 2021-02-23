@@ -21,3 +21,6 @@ for i in range(a):
     x += d
 
 print(list_arithmetic)  # There was nothing about printing in a Task, need to check if it's needed!
+
+
+# Good one. But try to use range(x, y, z) parameters for that. You are usinf FOR here but never used i itself in it.
